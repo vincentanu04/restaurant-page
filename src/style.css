@@ -56,12 +56,16 @@ nav ul {
 }
 
 button {
-    background-color: var(--clr-primary);
+    background-color: var(--clr-accent);
     color: var(--clr-secondary);
     font-weight: bold;
     padding: .5em .75em;
     border-radius: 5rem;
     border: none;
+}
+
+button:hover {
+    background-color: var(--clr-primary);
 }
 
 .hero, .welcome {
