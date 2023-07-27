@@ -66,6 +66,12 @@ button {
 
 button:hover {
     background-color: var(--clr-primary);
+    cursor: pointer;
+}
+
+header h1:hover, nav li:not(:last-child):hover {
+    cursor: pointer;
+    opacity: 80%;
 }
 
 .hero, .welcome {
@@ -114,6 +120,7 @@ button:hover {
 
 .hero img {
     display: none;
+    border-radius: .25em;
 }
 
 .welcome {
