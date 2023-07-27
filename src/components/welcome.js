@@ -1,3 +1,7 @@
+import facebookLogo from "./facebookLogo";
+import instagramLogo from "./instagramLogo";
+
+
 const welcome = document.createElement('section');
 welcome.classList.add('welcome');
 
@@ -21,5 +25,7 @@ div.appendChild(p1);
 welcome.appendChild(h2);
 welcome.appendChild(div);
 welcome.appendChild(p2);
+welcome.appendChild(instagramLogo);
+welcome.appendChild(facebookLogo);
 
 export default welcome;

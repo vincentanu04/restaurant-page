@@ -16,8 +16,7 @@ h1.innerHTML = 'Nyam<span>!</span>';
 title.appendChild(h1);
 
 const p = document.createElement('p');
-const heroText = 'Lorem ipsum dolor sit, amet consectetur \
-                adipisicing elit. Dicta, animi quasi.';
+const heroText = "Indulge in the Taste of Malaysia at Nyam! - A Flavorful Journey of Malaysian Cuisine!";
 p.innerHTML = heroText;
 
 const buttons = document.createElement('div');
