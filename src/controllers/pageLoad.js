@@ -1,6 +1,7 @@
 import header from '../components/header.js';
 import footer from '../components/footer.js';
 import renderHomePage from '../pages/homePage.js';
+import renderMenuPage from '../pages/menuPage.js';
 
 const pageLoad = () => {
     const body = document.querySelector('body');
@@ -14,6 +15,8 @@ const pageLoad = () => {
     body.appendChild(footer);
 
     renderHomePage(content);
+    // renderMenuPage(content);
+
 };
 
 export default pageLoad;

@@ -1,0 +1,27 @@
+const newMenu = (imgSrc, name, price, desc) => {
+    const menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+
+    const img = document.createElement('img');
+    img.src = imgSrc;
+    img.alt = 'Really awesome food!';
+
+    const h2 = document.createElement('h2');
+    h2.innerHTML = name;
+
+    const h3 = document.createElement('h3');
+    h3.classList.add('price');
+    h3.innerHTML = `RM ${price}`
+
+    const p = document.createElement('p');
+    p.innerHTML = desc;
+
+    menuItem.appendChild(img);
+    menuItem.appendChild(h2);
+    menuItem.appendChild(h3);
+    menuItem.appendChild(p);
+
+    return menuItem;
+}
+
+export default newMenu;

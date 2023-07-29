@@ -8,7 +8,8 @@ module.exports = {
     devtool: 'inline-source-map',
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'development',
+            title: 'Nyam! - Taste of Malaysia',
+            favicon: './dist/favicon.ico',
             lang: 'en',
         }),
     ],
